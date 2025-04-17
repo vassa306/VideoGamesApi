@@ -1,0 +1,12 @@
+@VideoGameApi_HostAddress = http://localhost:5138
+@VideoGameApi = /api/VideoGame
+
+GET {{VideoGameApi_HostAddress}}/{{VideoGameApi}}
+Accept: application/json
+
+###
+
+GET {{VideoGameApi_HostAddress}}/{{VideoGameApi}}/1
+Accept: application/json
+
+###
